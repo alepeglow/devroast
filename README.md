@@ -1,42 +1,42 @@
 # devroast
 
-`devroast` is a playful web app where you paste code and get a brutally honest roast back.
+`devroast` e uma aplicacao web divertida onde voce cola um trecho de codigo e recebe um roast brutalmente honesto de volta.
 
-This project is being built during **NLW by Rocketseat**, following the lessons from the event.
+Este projeto esta sendo construido durante o **NLW da Rocketseat**, acompanhando as aulas do evento.
 
-## What the app does
+## O que o app faz
 
-- lets you paste a code snippet into a terminal-style input area
-- offers a roast mode for a more sarcastic experience
-- shows a leaderboard with the most questionable code snippets
-- presents code in a polished editor-like interface
-- uses a custom visual system inspired by the event design
+- permite colar um trecho de codigo em uma area com visual de terminal/editor
+- oferece um modo de roast para uma experiencia mais sarcastica
+- mostra um leaderboard com os codigos mais duvidosos
+- apresenta o codigo em uma interface visual inspirada em editor
+- usa uma identidade visual propria baseada no design do projeto
 
-## Current status
+## Estado atual
 
-Right now the project already has:
+Hoje o projeto ja conta com:
 
-- a homepage based on the selected Pencil design
-- a reusable UI library with buttons, toggles, badges, code blocks, score rings, cards, and more
-- a reusable leaderboard section built with compound components
-- static data for the interface, with no API integration yet
+- uma homepage baseada no design selecionado no Pencil
+- uma biblioteca de UI reutilizavel com botoes, toggles, badges, code blocks, score rings, cards e mais
+- uma secao de leaderboard reutilizavel feita com compound components
+- dados estaticos na interface por enquanto, sem integracao com API
 
-## Why this exists
+## Por que esse projeto existe
 
-The idea behind `devroast` is to make code review feel fun, visual, and memorable instead of dry and mechanical.
+A ideia do `devroast` e transformar code review em algo mais divertido, visual e memoravel, em vez de algo frio e mecanico.
 
-## Next steps
+## Proximos passos
 
-- connect the UI to a real backend/API
-- submit code and receive generated roast feedback
-- expand the leaderboard into its own page
-- build the next screens from the design
+- conectar a interface a uma API real
+- permitir envio de codigo e retorno de roasts gerados
+- expandir o leaderboard para uma pagina propria
+- construir as proximas telas do design
 
-## Running locally
+## Rodando localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Abra `http://localhost:3000`.
