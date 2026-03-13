@@ -1,26 +1,43 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-surface-canvas: #ffffff;
+  --color-surface-panel: #fafafa;
+  --color-surface-subtle: #f4f4f5;
+  --color-surface-subtle-hover: #e4e4e7;
+  --color-surface-inverse: #0a0a0a;
+  --color-surface-neutral: #18181b;
+  --color-surface-neutral-hover: #27272a;
+  --color-surface-code: #111111;
+  --color-surface-code-gutter: #0f0f0f;
+  --color-surface-diff-added: #0a1a0f;
+  --color-surface-diff-removed: #1a0a0a;
+  --color-border-default: #2a2a2a;
+  --color-border-subtle: #d4d4d8;
+  --color-border-strong: #a1a1aa;
+  --color-text-primary: #0a0a0a;
+  --color-text-inverse: #fafafa;
+  --color-text-secondary: #6b7280;
+  --color-text-tertiary: #4b5563;
+  --color-text-muted: #a0a0a0;
+  --color-accent-green: #10b981;
+  --color-accent-green-hover: #34d399;
+  --color-accent-red: #ef4444;
+  --color-accent-red-hover: #fb7185;
+  --color-accent-amber: #f59e0b;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: var(--color-surface-canvas);
+  color: var(--color-text-primary);
 }
