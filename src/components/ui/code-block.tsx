@@ -157,7 +157,7 @@ export async function CodeBlockBody({
 
 export function CodeBlockLineNumbers({ lines }: { lines: CodeBlockLine[] }) {
   return (
-    <div className="flex shrink-0 flex-col gap-1 border-r border-border-default bg-surface-code-gutter px-[10px] py-3 text-right font-mono text-[13px] leading-6 text-text-tertiary">
+    <div className="flex shrink-0 flex-col gap-1 border-r border-border-default bg-surface-code-gutter px-[10] py-3 text-right font-mono text-[13px] leading-6 text-text-tertiary">
       {lines.map((line, index) => (
         <span key={`${line.key}-line-number`}>{index + 1}</span>
       ))}

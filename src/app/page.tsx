@@ -82,7 +82,7 @@ const leaderboardEntries = [
 export default function Home() {
   return (
     <main className="px-4 pb-16 pt-10 sm:px-6 lg:px-10 lg:pt-20">
-      <div className="mx-auto flex w-full max-w-[960px] flex-col gap-8 lg:gap-16">
+      <div className="mx-auto flex w-full max-w-[960] flex-col gap-8 lg:gap-16">
         <section className="flex flex-col items-center gap-6 text-center">
           <div className="flex flex-col items-center gap-3">
             <div className="flex items-center gap-3 font-mono text-3xl font-bold tracking-tight text-text-inverse sm:text-4xl">
@@ -96,7 +96,7 @@ export default function Home() {
             </p>
           </div>
 
-          <CodeBlockRoot className="w-full max-w-[780px]">
+          <CodeBlockRoot className="w-full max-w-[780]">
             <CodeBlockHeader>
               <CodeBlockDots />
               <CodeBlockFilename>input.js</CodeBlockFilename>
@@ -104,7 +104,7 @@ export default function Home() {
             <CodeBlockBody code={editorCode} lang="js" />
           </CodeBlockRoot>
 
-          <div className="flex w-full max-w-[780px] flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div className="flex w-full max-w-[780] flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between lg:gap-4">
               <div className="flex items-center gap-4">
                 <ToggleRoot>
